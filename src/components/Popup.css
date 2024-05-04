@@ -1,0 +1,47 @@
+.popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: rgb(25, 25, 22,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popupout{
+    width: 400px;
+    height: 400px;
+    background: url("./Cursalimg/eee-logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+}
+.popupout .xmarkicon{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    z-index: 110;
+}
+@media screen and (max-width:600px) {
+    .popupout{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (max-width:400px) {
+    .popupout{
+        width: 200px;
+        height: 200px;
+    }
+    .popupout .xmarkicon{
+        right: 4px;
+    top: 4px;
+    }
+
+}
+

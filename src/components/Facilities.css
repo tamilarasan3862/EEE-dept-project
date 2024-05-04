@@ -1,0 +1,38 @@
+#facilities{
+    background-color:#36768c ;
+}
+#facilities .text-center{
+    padding-top: 60px;
+}
+.facilities-details{
+    padding-top: 30px;
+}
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.labimg{
+     box-shadow: 0 0 0 5px #36768c,
+                 0 0 0 10px #edeff0;
+}
+.labname h1{
+    font-size: 18px;
+    color: white;
+}
+#facilities p{
+    padding: 30px 0 30px 0;
+    text-align: justify;
+    color: white;
+}
+@media screen and (max-width:576px) {
+    .col{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:526px) {
+    
+}

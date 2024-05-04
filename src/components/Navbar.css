@@ -1,0 +1,40 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+.bg-body-tertiary.fixed-top{
+   background-color: #36768c !important;
+}
+.brand{
+   color: white !important;
+   font-size: 20px;
+   font-weight: bold;
+   font-style: italic;
+}
+.navlink{
+   display: flex;
+   flex-direction: column;
+   font-weight: 600;
+   margin: 5px 10px 10px 5px ;
+   text-decoration: none;
+   color: black;
+}
+.navlink:hover{
+   color: white;
+}
+.navlink hr{
+   height: 3px !important;
+   font-weight: 500;
+   border-radius: 2px;
+   color: white;
+   margin: 2px;
+   width: 45px;
+}
+
+hr{
+   color: #36768c;
+   padding: 2px;
+   margin-top: 70px;
+}

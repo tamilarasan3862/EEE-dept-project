@@ -1,0 +1,91 @@
+.faculty{
+    background: url("./Cursalimg/whitelinebg.jpg");
+}
+.card img{
+    height: 300px;
+    width: 250px;
+}
+#facultyheading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    color: #36768c;
+
+}
+.facultyroll{
+    display: flex;
+    justify-content: center;
+    margin:40px 0 40px 0;
+    
+}
+.containerfaculty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 300px;
+    width: 250px;
+    margin: 20px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+.intro{
+    height: 70px;
+    width: 250px;
+    padding: 4px;
+    position: absolute;
+    background-color: rgb(27,27,27,.5);
+    color: aliceblue;
+    bottom: 0px;
+    transition: all .5s;
+}
+.intro h1{
+    margin: 10px;
+    font-size: 20px;
+}
+.intro .roll{
+    font-size: 17px;
+    padding-left: 15px;
+    visibility: hidden;
+    opacity: 0;
+}
+.intro .mail{
+    font-size: 12px;
+    padding-left: 15px;
+    visibility: hidden;
+    opacity: 0;
+}
+.card:hover{
+    cursor: pointer;
+}
+.card:hover .intro{
+    height: 150px;
+    background: black;
+}
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+.card:hover img{
+    transform: scale(1.1) rotate(-1deg);
+    
+}
+@media screen and (max-width:526px) {
+    .facultyroll{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .facultyroll{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .facultyroll{
+        font-size: 15px;
+    }
+}

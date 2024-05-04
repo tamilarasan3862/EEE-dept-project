@@ -1,0 +1,44 @@
+.footer{
+    display: flex;
+    position: relative;
+    height: 60px;
+    background-color: #36768c;
+}
+.social_icons{
+    display: flex;
+    font-size: 30px;
+    padding:10px 0px 10px 40px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.social_icons i{
+    transition: all 1s;
+}
+.social_icons i:hover,
+.social_icons i:active{
+    color: white;
+    font-size: 25px;
+
+}
+.copyright{
+    position: absolute;
+    right: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 400;
+    color: white;
+}
+@media screen and (max-width:500px) {
+    .social_icons{
+        padding-left: 3px;
+        gap: 5px;
+    }
+    .copyright{
+        padding-top: 20px;
+        font-size: 15px;
+        right: 10px;
+    }
+    
+}
